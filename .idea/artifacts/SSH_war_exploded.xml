@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSH:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSH_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SSH/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSH" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="Spring" />
+          <element id="library" level="project" name="MySQL-8.0" />
+          <element id="library" level="project" name="DBCP" />
+          <element id="library" level="application" name="Jeckson" />
+          <element id="library" level="project" name="Hibernate 5.4.3-5.4.3" />
+          <element id="library" level="project" name="AspectjWeaver" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
